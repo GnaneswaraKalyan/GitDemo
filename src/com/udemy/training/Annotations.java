@@ -7,6 +7,8 @@ public class Annotations {
 	@Test
 	public void Openingbrowser() {
 	System.out.println("test");	
+	System.out.println("test123");	
+	System.out.println("test456");	
 	}
 	
 	
