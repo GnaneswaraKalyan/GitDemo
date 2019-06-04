@@ -18,7 +18,7 @@ public class AlertsHandling {
 		
 		driver.switchTo().alert().accept();
 		
-		
+		System.out.println("Done");
 	}
 
 }

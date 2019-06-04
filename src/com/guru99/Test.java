@@ -15,9 +15,14 @@ public class Test {
 		
 		WebElement b=driver.findElement(By.xpath("//div[@class='nav-right']/div[@id='nav-tools']/a[1]"));
 		
+		
+		
+		
 		Actions a=new Actions(driver);
 		a.moveToElement(b).perform();
 		System.out.println("Done");
+		System.out.println("Done");
+		System.out.println("Done");System.out.println("Done");
 		driver.close();
 	}
 
